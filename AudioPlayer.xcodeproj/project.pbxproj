@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C791E1A927ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */; };
+		C791E1B027ABB4DC00004F07 /* Coldplay - In My Place.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */; };
+		C791E1B127ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */; };
+		C79302AF27AC923F00ADB07B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79302AE27AC923F00ADB07B /* Song.swift */; };
+		C79302B127AC953B00ADB07B /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79302B027AC953B00ADB07B /* AudioPlayer.swift */; };
+		C7BCEB1627AB8C9800B1D797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */; };
+		C7BCEB1827AB8C9800B1D797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */; };
+		C7BCEB1A27AB8C9800B1D797 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB1927AB8C9800B1D797 /* PlaybackController.swift */; };
+		C7BCEB1D27AB8C9800B1D797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BCEB1B27AB8C9800B1D797 /* Main.storyboard */; };
+		C7BCEB1F27AB8C9900B1D797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BCEB1E27AB8C9900B1D797 /* Assets.xcassets */; };
+		C7BCEB2227AB8C9900B1D797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BCEB2027AB8C9900B1D797 /* LaunchScreen.storyboard */; };
+		C7BCEB2B27AB903700B1D797 /* TimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCEB2A27AB903700B1D797 /* TimeSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Johannes Bornlöf - Reminiscence.mp3"; sourceTree = "<group>"; };
+		C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coldplay - In My Place.m4a"; sourceTree = "<group>"; };
+		C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Takeaway (ft. Lennon Stella).mp3"; sourceTree = "<group>"; };
+		C79302AE27AC923F00ADB07B /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C79302B027AC953B00ADB07B /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		C7BCEB1227AB8C9800B1D797 /* AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7BCEB1927AB8C9800B1D797 /* PlaybackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
+		C7BCEB1C27AB8C9800B1D797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7BCEB1E27AB8C9900B1D797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7BCEB2127AB8C9900B1D797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7BCEB2327AB8C9900B1D797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BCEB2A27AB903700B1D797 /* TimeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7BCEB0F27AB8C9800B1D797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C791E1A727ABB36B00004F07 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C791E1A827ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 */,
+				C791E1AE27ABB4DC00004F07 /* Coldplay - In My Place.m4a */,
+				C791E1AF27ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		C79302AD27AC922400ADB07B /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				C79302AE27AC923F00ADB07B /* Song.swift */,
+				C79302B027AC953B00ADB07B /* AudioPlayer.swift */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		C7BCEB0927AB8C9800B1D797 = {
+			isa = PBXGroup;
+			children = (
+				C7BCEB1427AB8C9800B1D797 /* AudioPlayer */,
+				C7BCEB1327AB8C9800B1D797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BCEB1327AB8C9800B1D797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7BCEB1227AB8C9800B1D797 /* AudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7BCEB1427AB8C9800B1D797 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C79302AD27AC922400ADB07B /* Architecture */,
+				C791E1A727ABB36B00004F07 /* Audio */,
+				C7BCEB2927AB901500B1D797 /* Custom UI Elements */,
+				C7BCEB1527AB8C9800B1D797 /* AppDelegate.swift */,
+				C7BCEB1727AB8C9800B1D797 /* SceneDelegate.swift */,
+				C7BCEB1927AB8C9800B1D797 /* PlaybackController.swift */,
+				C7BCEB1B27AB8C9800B1D797 /* Main.storyboard */,
+				C7BCEB1E27AB8C9900B1D797 /* Assets.xcassets */,
+				C7BCEB2027AB8C9900B1D797 /* LaunchScreen.storyboard */,
+				C7BCEB2327AB8C9900B1D797 /* Info.plist */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		C7BCEB2927AB901500B1D797 /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				C7BCEB2A27AB903700B1D797 /* TimeSlider.swift */,
+			);
+			path = "Custom UI Elements";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7BCEB1127AB8C9800B1D797 /* AudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BCEB2627AB8C9900B1D797 /* Build configuration list for PBXNativeTarget "AudioPlayer" */;
+			buildPhases = (
+				C7BCEB0E27AB8C9800B1D797 /* Sources */,
+				C7BCEB0F27AB8C9800B1D797 /* Frameworks */,
+				C7BCEB1027AB8C9800B1D797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayer;
+			productName = AudioPlayer;
+			productReference = C7BCEB1227AB8C9800B1D797 /* AudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7BCEB0A27AB8C9800B1D797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C7BCEB1127AB8C9800B1D797 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C7BCEB0D27AB8C9800B1D797 /* Build configuration list for PBXProject "AudioPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7BCEB0927AB8C9800B1D797;
+			productRefGroup = C7BCEB1327AB8C9800B1D797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7BCEB1127AB8C9800B1D797 /* AudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7BCEB1027AB8C9800B1D797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C791E1A927ABB37300004F07 /* Johannes Bornlöf - Reminiscence.mp3 in Resources */,
+				C7BCEB2227AB8C9900B1D797 /* LaunchScreen.storyboard in Resources */,
+				C791E1B027ABB4DC00004F07 /* Coldplay - In My Place.m4a in Resources */,
+				C791E1B127ABB4DC00004F07 /* The Chainsmokers - Takeaway (ft. Lennon Stella).mp3 in Resources */,
+				C7BCEB1F27AB8C9900B1D797 /* Assets.xcassets in Resources */,
+				C7BCEB1D27AB8C9800B1D797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7BCEB0E27AB8C9800B1D797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BCEB1A27AB8C9800B1D797 /* PlaybackController.swift in Sources */,
+				C7BCEB2B27AB903700B1D797 /* TimeSlider.swift in Sources */,
+				C7BCEB1627AB8C9800B1D797 /* AppDelegate.swift in Sources */,
+				C7BCEB1827AB8C9800B1D797 /* SceneDelegate.swift in Sources */,
+				C79302AF27AC923F00ADB07B /* Song.swift in Sources */,
+				C79302B127AC953B00ADB07B /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7BCEB1B27AB8C9800B1D797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BCEB1C27AB8C9800B1D797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7BCEB2027AB8C9900B1D797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7BCEB2127AB8C9900B1D797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7BCEB2427AB8C9900B1D797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7BCEB2527AB8C9900B1D797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7BCEB2727AB8C9900B1D797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKLTWZD2Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectre.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7BCEB2827AB8C9900B1D797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKLTWZD2Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectre.AudioPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7BCEB0D27AB8C9800B1D797 /* Build configuration list for PBXProject "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BCEB2427AB8C9900B1D797 /* Debug */,
+				C7BCEB2527AB8C9900B1D797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BCEB2627AB8C9900B1D797 /* Build configuration list for PBXNativeTarget "AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BCEB2727AB8C9900B1D797 /* Debug */,
+				C7BCEB2827AB8C9900B1D797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7BCEB0A27AB8C9800B1D797 /* Project object */;
+}
